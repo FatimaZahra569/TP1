@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "donner un fishier :"
+read file
+sort $file
+nl $file
